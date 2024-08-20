@@ -40,10 +40,10 @@ const ParcelSchema = mongoose.Schema(
       require: true,
     },
     note: {
-      type: string,
+      type: String,
     },
     feedback: {
-      type: string,
+      type: String,
     },
     status: {
       type: Number,
